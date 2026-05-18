@@ -1,0 +1,33 @@
+PREFIX csor:             <https://data.omgeving.vlaanderen.be/ns/csor#>
+PREFIX csor-constraints: <https://data.omgeving.vlaanderen.be/ns/csor-constraints#>
+PREFIX dcterms:          <http://purl.org/dc/terms/>
+PREFIX iadopt:           <https://w3id.org/iadopt/ont/>
+PREFIX owl:              <http://www.w3.org/2002/07/owl#>
+PREFIX qudt:             <http://qudt.org/schema/qudt/>
+PREFIX rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:             <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sh:               <http://www.w3.org/ns/shacl#>
+PREFIX skos:             <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
+
+[ rdf:type     sh:ValidationReport;
+  sh:conforms  false;
+  sh:result    [ rdf:type                      sh:ValidationResult;
+                 sh:focusNode                  <https://data.omgeving.vlaanderen.be/id/concept/csor/organisatiespecifiekereferentie/OSR_3221>;
+                 sh:resultMessage              "Closed[https://data.omgeving.vlaanderen.be/ns/csor#heeftVariabele, https://data.omgeving.vlaanderen.be/ns/csor#ovoCode, http://www.w3.org/2004/02/skos/core#prefLabel, https://data.omgeving.vlaanderen.be/ns/csor#heeftParameter, https://data.omgeving.vlaanderen.be/ns/csor#referentieType, https://data.omgeving.vlaanderen.be/ns/csor#waarde, http://www.w3.org/2002/07/owl#deprecated, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, https://data.omgeving.vlaanderen.be/ns/csor#referentieCategorie, http://www.w3.org/2004/02/skos/core#inScheme] Property = <http://www.w3.org/2004/02/skos/core#definition> : Object = \"Dit is een toelichting test\"@nl";
+                 sh:resultPath                 skos:definition;
+                 sh:resultSeverity             sh:Violation;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent;
+                 sh:sourceShape                csor-constraints:OrganisatieSpecifiekeReferentieShape;
+                 sh:value                      "Dit is een toelichting test"@nl
+               ];
+  sh:result    [ rdf:type                      sh:ValidationResult;
+                 sh:focusNode                  <https://data.omgeving.vlaanderen.be/id/concept/csor/organisatiespecifiekereferentie/OSR_3220>;
+                 sh:resultMessage              "Closed[https://data.omgeving.vlaanderen.be/ns/csor#heeftVariabele, https://data.omgeving.vlaanderen.be/ns/csor#ovoCode, http://www.w3.org/2004/02/skos/core#prefLabel, https://data.omgeving.vlaanderen.be/ns/csor#heeftParameter, https://data.omgeving.vlaanderen.be/ns/csor#referentieType, https://data.omgeving.vlaanderen.be/ns/csor#waarde, http://www.w3.org/2002/07/owl#deprecated, http://www.w3.org/1999/02/22-rdf-syntax-ns#type, https://data.omgeving.vlaanderen.be/ns/csor#referentieCategorie, http://www.w3.org/2004/02/skos/core#inScheme] Property = <http://www.w3.org/2004/02/skos/core#definition> : Object = \"Tesing osr\"@nl";
+                 sh:resultPath                 skos:definition;
+                 sh:resultSeverity             sh:Violation;
+                 sh:sourceConstraintComponent  sh:ClosedConstraintComponent;
+                 sh:sourceShape                csor-constraints:OrganisatieSpecifiekeReferentieShape;
+                 sh:value                      "Tesing osr"@nl
+               ]
+] .
