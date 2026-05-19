@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "name": "codelijst-csor-variabele",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "create_metadata": "cd src && node 02_metadata.js"
+  },
+  "keywords": [
+    "milieuinfo",
+    "linked data",
+    "skos",
+    "rdfjs",
+    "dcat",
+    "maven"
+  ],
+  "author": "Vlaamse Overheid, Departement omgeving",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.4.5",
+    "js-yaml": "^4.1.0",
+    "@milieuinfo/maven-metadata-generator-npm": "^0.5.1"
+  }
+}
