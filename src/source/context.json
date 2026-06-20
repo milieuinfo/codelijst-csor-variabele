@@ -1,0 +1,206 @@
+{
+  "accessRights": {
+    "@id": "http://purl.org/dc/terms/accessRights",
+    "@type": "@id"
+  },
+  "accessURL": {
+    "@id": "http://www.w3.org/ns/dcat#accessURL",
+    "@type": "@id"
+  },
+  "alternative": {
+    "@id": "http://purl.org/dc/terms/alternative",
+    "@language": "nl"
+  },
+  "availableGraphs": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#availableGraphs",
+    "@type": "@id"
+  },
+  "contact": {
+    "@id": "http://www.w3.org/ns/dcat#contactPoint",
+    "@type": "@id"
+  },
+  "dataset": {
+    "@id": "http://www.w3.org/ns/dcat#dataset",
+    "@type": "@id"
+  },
+  "defaultDataset": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#defaultDataset",
+    "@type": "@id"
+  },
+  "defaultGraph": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#defaultGraph",
+    "@type": "@id"
+  },
+  "description": {
+    "@id": "http://purl.org/dc/terms/description",
+    "@language": "nl"
+  },
+  "distribution": {
+    "@id": "http://www.w3.org/ns/dcat#distribution",
+    "@type": "@id"
+  },
+  "downloadLocation": {
+    "@id": "http://spdx.org/rdf/terms#downloadLocation",
+    "@type": "@id"
+  },
+  "downloadURL": {
+    "@id": "http://www.w3.org/ns/dcat#downloadURL",
+    "@type": "@id"
+  },
+  "endpointDescription": {
+    "@id": "http://www.w3.org/ns/dcat#endpointDescription",
+    "@type": "@id"
+  },
+  "endpoint": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#endpoint",
+    "@type": "@id"
+  },
+  "endpointURL": {
+    "@id": "http://www.w3.org/ns/dcat#endpointURL",
+    "@type": "@id"
+  },
+  "feature": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#feature",
+    "@type": "@id"
+  },
+  "format": {
+    "@id": "http://purl.org/dc/terms/format",
+    "@type": "@id"
+  },
+  "hasVersion": {
+    "@id": "http://purl.org/dc/terms/hasVersion",
+    "@type": "@id"
+  },
+  "identifier": {
+    "@id": "http://purl.org/dc/terms/identifier",
+    "@type": "@id"
+  },
+  "id": {
+    "@id": "@id",
+    "@type": "@id"
+  },
+  "isDeelVan": {
+    "@id": "http://purl.org/dc/terms/isPartOf",
+    "@type": "@id"
+  },
+  "issued": {
+    "@id": "http://purl.org/dc/terms/issued",
+    "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+  },
+  "isVersionOf": {
+    "@id": "http://purl.org/dc/terms/isVersionOf",
+    "@type": "@id"
+  },
+  "label": {
+    "@id": "http://www.w3.org/2000/01/rdf-schema#label",
+    "@language": "nl"
+  },
+  "landingPage": {
+    "@id": "http://www.w3.org/ns/dcat#landingPage",
+    "@type": "@id"
+  },
+  "accrualPeriodicity": {
+    "@id": "http://purl.org/dc/terms/accrualPeriodicity",
+    "@type": "@id"
+  },
+  "license": {
+    "@id": "http://purl.org/dc/terms/license",
+    "@type": "@id"
+  },
+  "mediaType": {
+    "@id": "http://www.w3.org/ns/dcat#mediaType",
+    "@type": "@id"
+  },
+  "namedGraph": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#namedGraph",
+    "@type": "@id"
+  },
+  "name": {
+    "@id": "http://spdx.org/rdf/terms#name"
+  },
+  "packageName": {
+    "@id": "http://spdx.org/rdf/terms#packageName"
+  },
+  "page": {
+    "@id": "http://xmlns.com/foaf/0.1/page",
+    "@type": "@id"
+  },
+  "provenance": {
+    "@id": "http://purl.org/dc/terms/provenance"
+  },
+  "publisher": {
+    "@id": "http://purl.org/dc/terms/publisher",
+    "@type": "@id"
+  },
+  "relation": {
+    "@id": "http://purl.org/dc/terms/relation",
+    "@type": "@id"
+  },
+  "resultFormat": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#resultFormat",
+    "@type": "@id"
+  },
+  "rightsHolder": {
+    "@id": "http://purl.org/dc/terms/rightsHolder",
+    "@type": "@id"
+  },
+  "rootResource": {
+    "@id": "http://rdfs.org/ns/void#rootResource",
+    "@type": "@id"
+  },
+  "servesDataset": {
+    "@id": "http://www.w3.org/ns/dcat#servesDataset",
+    "@type": "@id"
+  },
+  "service": {
+    "@id": "http://www.w3.org/ns/dcat#service",
+    "@type": "@id"
+  },
+  "source": {
+    "@id": "http://purl.org/dc/terms/source",
+    "@type": "@id"
+  },
+  "sparql-service-description-graph": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#graph",
+    "@type": "@id"
+  },
+  "sparql-service-description-name": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#name",
+    "@type": "@id"
+  },
+  "spatial": {
+    "@id": "http://purl.org/dc/terms/spatial",
+    "@type": "@id"
+  },
+  "subject": {
+    "@id": "http://purl.org/dc/terms/subject",
+    "@type": "@id"
+  },
+  "supportedLanguage": {
+    "@id": "http://www.w3.org/ns/sparql-service-description#supportedLanguage",
+    "@type": "@id"
+  },
+  "temporal": {
+    "@id": "http://purl.org/dc/terms/temporal",
+    "@type": "@id"
+  },
+  "theme": {
+    "@id": "http://www.w3.org/ns/dcat#theme",
+    "@type": "@id"
+  },
+  "title": {
+    "@id": "http://purl.org/dc/terms/title",
+    "@language": "nl"
+  },
+  "_type": {
+    "@id": "@type",
+    "@type": "@id",
+    "@container": "@set"
+  },
+  "version": {
+    "@id": "http://www.w3.org/2002/07/owl#versionInfo"
+  },
+  "versionInfo": {
+    "@id": "http://spdx.org/rdf/terms#versionInfo"
+  }
+}
