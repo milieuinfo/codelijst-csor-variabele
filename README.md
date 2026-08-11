@@ -10,6 +10,7 @@ Deze codelijst bevat **1691 variabelen** gepubliceerd als [SKOS](https://www.w3.
 
 - Concept scheme URI: `https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/variabele`
 - CSOR namespace: `https://data.omgeving.vlaanderen.be/ns/csor#`
+- Named graph (Virtuoso): `https://data.omgeving.vlaanderen.be/id/graph/codelijst-csor-variabele`
 
 ## Bestandsformaten
 
