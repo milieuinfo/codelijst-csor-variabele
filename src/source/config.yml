@@ -73,48 +73,48 @@ metadata :
     provenance:
       label: "Deze codelijst van variabelen voor het CSOR-register is een representatie van chemische stoffen en omgevingsparameters die geobserveerd kunnen worden in het kader van milieudoelstellingen van de Vlaamse overheid, Departement Omgeving."
   distribution :
-    parquet:
-      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als parquet-formaat."
-      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als parquet bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
-      format: http://publications.europa.eu/resource/authority/file-type/PARQUET
-      type: http://www.w3.org/ns/dcat#Distribution
-    xlsx:
-      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als excel-formaat."
-      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als excel bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      format: http://publications.europa.eu/resource/authority/file-type/XLSX
-      type: http://www.w3.org/ns/dcat#Distribution
-    csv :
-      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als csv-formaat."
-      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als csv bestand."
-      mediaType : https://www.iana.org/assignments/media-types/text/csv
-      format : http://publications.europa.eu/resource/authority/file-type/CSV
-      type : http://www.w3.org/ns/dcat#Distribution
+#    parquet:
+#      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als parquet-formaat."
+#      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als parquet bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
+#      format: http://publications.europa.eu/resource/authority/file-type/PARQUET
+#      type: http://www.w3.org/ns/dcat#Distribution
+#    xlsx:
+#      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als excel-formaat."
+#      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als excel bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+#      format: http://publications.europa.eu/resource/authority/file-type/XLSX
+#      type: http://www.w3.org/ns/dcat#Distribution
+#    csv :
+#      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als csv-formaat."
+#      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als csv bestand."
+#      mediaType : https://www.iana.org/assignments/media-types/text/csv
+#      format : http://publications.europa.eu/resource/authority/file-type/CSV
+#      type : http://www.w3.org/ns/dcat#Distribution
     nt:
       title: "Codelijst van variabelen voor het CSOR, geserialiseerd als n-triple-formaat."
       description: "Codelijst van variabelen voor het CSOR, geserialiseerd als n-triple bestand."
       mediaType: https://www.iana.org/assignments/media-types/application/n-triples
       format: http://publications.europa.eu/resource/authority/file-type/RDF_N_TRIPLES
       type: http://www.w3.org/ns/dcat#Distribution
-    json:
-      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als json-formaat."
-      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als json bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/json
-      format: http://publications.europa.eu/resource/authority/file-type/JSON
-      type: http://www.w3.org/ns/dcat#Distribution
+#    json:
+#      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als json-formaat."
+#      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als json bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/application/json
+#      format: http://publications.europa.eu/resource/authority/file-type/JSON
+#      type: http://www.w3.org/ns/dcat#Distribution
     ttl:
       title: "Codelijst van variabelen voor het CSOR, geserialiseerd als turtle-formaat."
       description: "Codelijst van variabelen voor het CSOR, geserialiseerd als turtle bestand."
       mediaType: https://www.iana.org/assignments/media-types/text/turtle
       format: http://publications.europa.eu/resource/authority/file-type/RDF_TURTLE
       type : http://www.w3.org/ns/dcat#Distribution
-    jsonld:
-      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als ld+json-formaat."
-      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als json-ld bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/ld+json
-      format: http://publications.europa.eu/resource/authority/file-type/JSON_LD
-      type : http://www.w3.org/ns/dcat#Distribution
+#    jsonld:
+#      title: "Codelijst van variabelen voor het CSOR, geserialiseerd als ld+json-formaat."
+#      description: "Codelijst van variabelen voor het CSOR, geserialiseerd als json-ld bestand."
+#      mediaType: https://www.iana.org/assignments/media-types/application/ld+json
+#      format: http://publications.europa.eu/resource/authority/file-type/JSON_LD
+#      type : http://www.w3.org/ns/dcat#Distribution
     jar :
       title: "Codelijst van variabelen voor het CSOR, alle verspreidingsvormen samengevoegd in een jar-formaat."
       description: "Codelijst van variabelen voor het CSOR, alle verspreidingsvormen samengevoegd in een jar bestand."
