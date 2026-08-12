@@ -9,14 +9,14 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-csor-variabele</artifactId>
-  <version>0.1.1-SNAPSHOT</version>
+  <version>0.2.0</version>
   <name>codelijst-csor-variabele</name>
   <description />
   <scm>
     <connection>scm:git:https://github.com/milieuinfo/codelijst-csor-variabele.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-csor-variabele.git</developerConnection>
     <url>https://github.com/milieuinfo/codelijst-csor-variabele.git</url>
-    <tag>HEAD</tag>
+    <tag>codelijst-csor-variabele-0.2.0</tag>
   </scm>
   <build>
     <plugins>
